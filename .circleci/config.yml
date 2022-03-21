@@ -6,8 +6,7 @@ jobs:
 
     steps:
     - checkout
-    - run: tar -xf lapok
-    - run: chmod u+x *
+    - run: ls
 
 workflows:
   version: 2
